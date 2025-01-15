@@ -1,0 +1,29 @@
+.collectionContainer{
+    width: 30%;
+    height: 90%;
+    padding: 2rem 1rem;
+    background-color: #B7E0FF;
+    border-radius: 1.5rem;
+    margin-left: 2rem;
+
+    .chatSearchBar{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 0.5rem;
+    }
+
+    .chatsWrapper{
+        width: 100%;
+        height: 85%;
+        border-radius: 0.5rem;
+        overflow-y: scroll;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none; 
+        overflow-x: hidden;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        // position: relative;
+    }
+}

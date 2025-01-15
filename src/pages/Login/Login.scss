@@ -1,0 +1,65 @@
+.login-container{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F7F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-container{
+        width: 30%;
+        height: auto;
+        background-color: #B7E0FF;
+        padding: 1rem;
+        border-radius: 1.5rem;
+
+        .header-container{
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            img {
+                width: 2rem;
+                height: 2rem;
+                border-radius: 50%;
+            }
+
+            h2{
+                margin: 0;
+                padding: 0;
+                font-family: "Poppins", serif;
+                font-size: 1.5rem;
+                color: #3abde6;
+            }
+        }
+
+        .form-heading{
+            margin: 0;
+            margin-top: 1.5rem;
+            padding: 0;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        
+
+        
+
+        .buttonContainer{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button{
+               display: flex;
+               justify-content: center;
+               align-items: center;  
+            }
+
+            button:focus{
+                outline: 2px solid transparent
+            }
+        }
+
+    }
+}

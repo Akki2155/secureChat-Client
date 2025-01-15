@@ -1,0 +1,29 @@
+.chatConatiner{
+    width: 99%;
+    height: auto;
+    background-color: #B7E0FF;
+    margin-top:0.3rem;
+    border-bottom: 1px solid #3abde6;
+    padding: 0.2rem;
+
+    h3{
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", serif;
+        font-size: 1.1rem;
+    }
+
+    p{
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", serif;
+        font-size: 1rem;
+        max-width: 90%;
+        text-overflow:ellipsis;
+        font-weight: 300;
+    }
+}
+
+.chatConatiner:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+.newCharModalContainer{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background: #F5F7F8, 0.2;
+    position: absolute;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .newChatModalWraper{
+        background-color: #B7E0FF;
+        min-width:20rem;
+        max-width: 20rem;
+        min-height: 10rem;
+        border-radius: 0.5rem;
+        padding: 1rem;
+
+        .newChatModalHeader{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .modalClearContainer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .modalClearContainer:hover{
+                cursor: pointer
+            }
+        }
+
+        h3{
+            margin: 0;
+            padding: 0;
+        }
+
+        .chatNameWrapper{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-top: 1rem;
+        }
+
+        .chatMembers{
+            background-color: rgba(247, 245, 245, 0.695);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            width: 100%;
+
+            .membersWrapper{
+                p{
+                    background-color: white;
+                    border-radius: 0.5rem;
+                    padding: 0rem 0.5rem;
+                    margin-left: 0.2rem;
+                    margin-top: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 4.5rem;
+                    font-size: 0.8rem;
+                }
+                .memberClear{
+                    width: 1.2rem;
+                    height: 1.2rem;
+                    margin-left: 0.5rem; 
+                }
+            }
+
+        }
+
+        .buttonContainer{
+            margin-top: 0.5rem;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

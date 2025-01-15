@@ -1,0 +1,23 @@
+.inputContainers{
+    margin-top: 1rem;
+}
+
+.authToggleContainer{
+    display: flex;
+    justify-content: end;
+   
+    
+
+    p{
+        color: #3abde6 ;
+        margin: 0;
+        width: auto;
+        text-align: right;
+       
+    }
+
+    p:hover{
+        cursor: pointer;
+        color: #6256CA;
+    }
+}

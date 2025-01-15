@@ -1,0 +1,27 @@
+.input-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    width: 100%;
+
+    .input{
+       padding: 0.3rem 0.6rem;
+       border-radius: 0.4rem ;
+       outline: none;
+       border: none;
+       font-family: "Poppins", serif;
+       width: 100%;
+    }
+
+
+    .label{
+        font-family: "Roboto", serif;
+        margin-right: 0.1rem;
+        min-width: 30%;
+    }
+
+    
+}
